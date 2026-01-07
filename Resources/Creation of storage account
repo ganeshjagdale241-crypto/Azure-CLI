@@ -1,1 +1,6 @@
-
+az storage account create 
+--name <storage-account-name> 
+--resource-group <resource-group-name> 
+--location <location> 
+--sku Standard_LRS 
+--kind StorageV2
